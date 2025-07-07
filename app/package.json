@@ -1,0 +1,15 @@
+{
+  "name": "observability-demo",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "winston": "^3.3.3",
+    "prom-client": "^13.1.0",
+    "jaeger-client": "^3.18.1"
+  }
+}
