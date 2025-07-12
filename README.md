@@ -45,7 +45,7 @@ A complete observability stack with **Prometheus (metrics)**, **Loki (logs)**, *
    git push origin main
    ```
 ### Architecture
-
+```mermaid
 graph TD
     A[Node.js App] -->|Metrics| B(Prometheus)
     A -->|Logs| C(Loki)
@@ -54,3 +54,4 @@ graph TD
     C --> E
     D --> E
     F[GitHub Actions] -->|CI/CD| G[EC2 Instance]
+```
